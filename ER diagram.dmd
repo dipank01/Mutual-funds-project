@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER diagram" id="59B9B6BE-9455-BFA8-1422-05AD765A08AA" version="3.5">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:01:22 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>59B9B6BE-9455-BFA8-1422-05AD765A08AA</designId>
+</OSDM_Design>

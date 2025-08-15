@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F832E1AB-F2BB-3B34-5EDD-6F9E3F06AE3E" mainViewID="392DBB51-36F3-06E1-E9FF-B48AB281FE1A">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:01:22 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

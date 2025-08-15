@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4147663-4BA0-C438-5300-6133DAA0B99A" name="fund_ticker">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:30:36 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ticker_id" id="B6E6EAC9-2209-EBC6-A453-AC1E1285B699">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:32:35 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_id" id="054FF64B-5BFE-463B-6FE2-5E69B688E1E1">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:32:43 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="DB6E4DF7-3DA9-8ACD-1A39-9A9F4F7878F7">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:32:55 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_id1" id="5085B94A-85CC-0EA7-4E82-42261E5E0571">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:34:46 UTC</createdTime>
+<generatorID>F554DC86-861A-A6A2-CE13-45E77FE57DDC</generatorID>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<referedAttribute>E098B9C5-BE45-E627-B503-DA0F7E019994</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ticker_id1" id="7F4B06A5-05B4-05E0-78D9-52C40DF5FF2F">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:39:00 UTC</createdTime>
+<generatorID>B180102E-E87B-745B-15DA-6C4266058D5E</generatorID>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<referedAttribute>FE87DF9C-708D-4626-F569-8D3C37E4BBA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEA12F4D-FC83-748C-7C84-100617F0BCF4" name="fund_ticker PK">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:35:01 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6E6EAC9-2209-EBC6-A453-AC1E1285B699</attributeRef>
+<attributeRef>054FF64B-5BFE-463B-6FE2-5E69B688E1E1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

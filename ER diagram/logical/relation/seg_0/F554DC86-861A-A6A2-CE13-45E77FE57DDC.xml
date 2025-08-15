@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="F554DC86-861A-A6A2-CE13-45E77FE57DDC">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:33:54 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<sourcePk>3BDB1E62-4138-8F95-9438-4C87B9EF5E65</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7CC9EDFD-0243-FC5A-8D9A-E635872FA05E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D4147663-4BA0-C438-5300-6133DAA0B99A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

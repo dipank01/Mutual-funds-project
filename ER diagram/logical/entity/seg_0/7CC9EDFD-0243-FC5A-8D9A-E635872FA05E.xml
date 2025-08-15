@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CC9EDFD-0243-FC5A-8D9A-E635872FA05E" name="dim_date">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:05:07 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="date_id" id="E098B9C5-BE45-E627-B503-DA0F7E019994">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:06:14 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="27AD1E47-0DB7-6898-D539-0C5EA2B1E779">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:07:02 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="day_of_week" id="7B7523C7-827F-705E-285D-D575870B302C">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:08:06 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="month" id="070D0D15-4179-40D1-1A02-DC221695446F">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:08:23 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="month_number" id="CF2ACF32-91C3-22F0-063D-0FB0885D4A4F">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:08:59 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="3279D310-7EF8-0D39-9D86-930316E4BADF">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:08:35 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3BDB1E62-4138-8F95-9438-4C87B9EF5E65" name="dim_date PK">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:06:23 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E098B9C5-BE45-E627-B503-DA0F7E019994</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

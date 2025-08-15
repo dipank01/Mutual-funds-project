@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="FBB16B08-6418-38D8-239F-6F42B66A88B0">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:01:22 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

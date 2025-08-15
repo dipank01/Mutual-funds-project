@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="210F4A7D-24F4-FD67-A3C5-FC0A8DD65E65" name="fact_funds">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:01:51 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fund_id" id="EE9CE661-F734-BFD1-17AB-B4974CEA5211">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:03:55 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_id" id="E7C8ED11-B178-CA31-DA3E-8CEF534A61BB">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:04:10 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="value" id="EF0D4700-832D-2041-4219-C778265FD8D1">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:04:23 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_id1" id="08135FA9-1097-EA15-3669-40132BD8D2D9">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:18:04 UTC</createdTime>
+<generatorID>290AC80F-D83E-384C-27EA-905648C7B5DE</generatorID>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<referedAttribute>E098B9C5-BE45-E627-B503-DA0F7E019994</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fund_id1" id="BBC31841-09C9-FEFC-015D-6F7DA9CC7676">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:35:31 UTC</createdTime>
+<generatorID>309431EE-5840-B9A8-8ACA-5BBDBBB65708</generatorID>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<referedAttribute>283557D8-197C-309F-3C02-796A4FBB6F84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7AB341D8-7BF1-357C-B599-25108E62B260" name="fact_funds PK">
+<createdBy>dipank</createdBy>
+<createdTime>2025-08-15 19:04:08 UTC</createdTime>
+<ownerDesignName>ER diagram</ownerDesignName>
+<engineerTo>
+<item key="E49AD6EE-37FA-E0B0-2B20-70D444A3BAA2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE9CE661-F734-BFD1-17AB-B4974CEA5211</attributeRef>
+<attributeRef>E7C8ED11-B178-CA31-DA3E-8CEF534A61BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
